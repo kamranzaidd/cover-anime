@@ -1,0 +1,75 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    padding: 0px;
+}
+
+.nav {
+    z-index: 100;
+    background-color: rgb(12, 180, 180);
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    top: 0;
+}
+
+.nav ul li {
+    left: 100px;
+    display: inline-block;
+    margin-top: -50px;
+    margin-right: 15px;
+
+}
+
+.nav a {
+    text-decoration: black;
+    color: black;
+    padding: 4px;
+}
+
+.nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.anime {
+    background-color: black;
+    margin-right: 20%;
+    margin-left: 20%;
+
+    width: 60%;
+    margin: auto;
+
+}
+
+img {
+    height: 300px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s ease all;
+    /* position: relative; */
+
+}
+
+.konte1 ul {
+
+    margin-top: 55px;
+    list-style: none;
+    padding: 1px;
+
+}
+
+.konte1 li {
+    float: left;
+    border-radius: 10px;
+    margin: 1px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
